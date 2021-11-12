@@ -1,31 +1,7 @@
-.App {
-  text-align: center;
-  background-color: #ffe6e6;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #000;
-  height: 150px;
-  color: white;
-}
-
-.App-header img {
-  height: inherit;
-  display: block;
-}
-
-
-.App-intro {
-  font-size: xx-large;
-  background-color: #ABEBC6 ;
-  padding: 20px;
-  margin: 0;
-  text-align: left;
+.content {
+  background-color: #fff;
+  padding-top: 120px;
 }
 
 .Audio-list{
@@ -35,6 +11,29 @@
 .card {
   float: left;
   margin: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(219,219,219,1);
+}
+.row {
+  justify-content: center;
+}
+
+.card.bg-primary {
+  background-color: #a6dcef !important;
+}
+
+.card-body {
+  color: #3B5957;
+  background-color: #66bed8;
+  text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+.card-text {
+  font-style: italic;
+}
+
+.card-header {
+  background-color: #a3d8e7;
+  border-bottom: none;
 }
 
 @keyframes App-logo-spin {
